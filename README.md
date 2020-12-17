@@ -3,6 +3,8 @@
 Uma aplicação baseada em aprendizado de máquina que reconhece automaticamente um determinado tipo de vinho 
 considerando os conjunto de dados do repositório [Wine Dataset da UCI](https://archive.ics.uci.edu/ml/datasets/wine)
 
+[App no Heroku](https://sommelier-inteligente-app.herokuapp.com/)
+
 ## Instalação
 
 Utilize o geranciador de pacotes [pip](https://pip.pypa.io/en/stable/) para instalar a aplicação.
