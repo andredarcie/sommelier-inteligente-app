@@ -1,4 +1,3 @@
-README.md
 # Sommelier Inteligente App
 
 Uma aplicação baseada em aprendizado de máquina que reconhece automaticamente um determinado tipo de vinho 
