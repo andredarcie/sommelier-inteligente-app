@@ -67,8 +67,11 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <h2>Resultado</h2>
-                    <p>{{name}}</p>
+                    {% if name == 'No-name' %}
+                        <h2> Aguardando... </h2>
+                    {% else %}
+                        <img src="{{ url_for('static', filename=name|string+'.png') }}" class="w-50 h-50 img-thumbnail">
+                    {% endif %}
                 </div>
             </div>
         </form>
